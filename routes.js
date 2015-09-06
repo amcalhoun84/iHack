@@ -38,7 +38,7 @@ app.get('/auth/google',
        });
 
 app.get('/auth/google/return', 
-  passport.authenticate('google', { failureRedirect: '/web/home.html#/groups' }),
+  passport.authenticate('google', { failureRedirect: '/' }),
   function(req, res) {
     res.redirect('/web/home.html#/groups');
   });
