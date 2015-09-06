@@ -18,3 +18,5 @@ Start the app
 <pre><code>grunt
 </code></pre>
 
+Use grunt --force if jshint throws out errors (for the moment)
+
